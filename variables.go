@@ -10,4 +10,12 @@ func main() {
 	fmt.Println(randNum)
 	fmt.Println(favnum)
 	fmt.Println(age)
+
+	// for loops
+	fmt.Println("loop starts")
+	i := 1;
+	for i < 5 {
+		fmt.Println(i)
+		i++
+	}
 }
