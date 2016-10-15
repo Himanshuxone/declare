@@ -32,6 +32,7 @@ func main() {
 		fmt.Println(value, j)
 	}
 
+	// := assignment operator is used to create an array of length 5 
 	// another way to create an array using assignment operator	 
 	favNums1 := [5]float64 {1,7,6,4,5}
 	for _, value := range favNums1 {
