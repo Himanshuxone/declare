@@ -27,9 +27,14 @@ func main() {
 	favNum[2] = 43.9
 	favNum[3] = 226
 	favNum[4] = 5
-	var arr_len int =  (favNum)
-	fmt.Println( arr_len )
-	// for j, value := range favNum {
-	// 	fmt.Println(value, j)
-	// }
+
+	for j, value := range favNum {
+		fmt.Println(value, j)
+	}
+
+	// another way to create an array using assignment operator	 
+	favNums1 := [5]float64 {1,7,6,4,5}
+	for _, value := range favNums1 {
+		fmt.Println(value);
+	}
 }
