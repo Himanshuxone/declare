@@ -19,6 +19,9 @@ func main() {
 		i++
 	}
 
+	// functon has paramters a, b is of integer type and it will return the value of type int as a+b = int
+	sum := func(a, b int) int { return a+b } (3, 4)
+
 	// arrays
 
 	var favNum[5] float64
