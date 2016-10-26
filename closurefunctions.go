@@ -3,7 +3,9 @@ import "fmt"
 func main(){
 	num := 3
 	doubleNum := func() int{
-		return num := num * 2
+		num = num * 2
+		return num
 	}
-	fmt.Println(doubleNum)
+	fmt.Println(doubleNum())
+	fmt.Println(doubleNum())
 }
