@@ -11,6 +11,7 @@ func main() {
 func safeDiv(num1, num2 int) int{
 	// to execute the recover() function at the end of completing division use defer keyword
 	// below function is used to catch an error if occurs
+	// If we dont print the error the function will execute even if their is a fatal error inside 
 	defer func() {
 		fmt.Println(recover())
 	}()
