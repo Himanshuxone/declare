@@ -31,7 +31,7 @@ type Rectangle struct{
 
 // below is not a functions it is a method with a reciever rectangle struct here
 // we pass the reference to the struct using "*" keword which will pass the values to the method
-
+// using methods we can pass the value of a structure from outside main which is a receiver
 func (rect *Rectangle) area() float64{
 	return rect.widthX * rect.heightX
 }
