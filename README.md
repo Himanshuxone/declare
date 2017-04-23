@@ -18,7 +18,7 @@ Version 1.0.0
 
 ## Authors
 
-* **Himanshu** - *Initial work* - (https://github.com/Himanshuxone/declare)
+* **Himanshu** - *Initial work* - (https://github.com/Himanshuxone/go-repo)
 
 
 
