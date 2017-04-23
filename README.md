@@ -4,7 +4,8 @@ Basic examples to start learning go
 
 ## Getting Started
 
-Learn how to declare variables in go along with slices, array, map and other data structures. Also consists some examples to nested maps.
+Learn how to work with go. 
+Also consists some examples to nested maps.
 
 ## Deployment
 
