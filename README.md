@@ -9,7 +9,7 @@ Also consists some examples to nested maps.
 
 ## Deployment
 
-Fles are not compiled. 
+Files are not compiled to binary. 
 Learn how to compile go files on go website.
 
 ## Versioning
